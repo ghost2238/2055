@@ -24,8 +24,8 @@ func(eax, edx, ebx, ecx, push...)
 ### Files
 | File               | Description   |
 | -------------      | ------------- |
-| Falloutw.idc       | [IDA 6.5](https://www.hex-rays.com/products/ida/6.5/index.shtml) database by Crafty.
-| Falloutw.ddc32     | My x64dbg database based on own research and the above database
+| [Falloutw.idc](https://github.com/ghost2238/2055/blob/master/Falloutw.dd32)   | [IDA 6.5](https://www.hex-rays.com/products/ida/6.5/index.shtml) database by Crafty.
+| [Falloutw.ddc32](https://github.com/ghost2238/2055/blob/master/Falloutw.ddc32)     | My x64dbg database based on own research and the above database
 
 ## Fallout file formats
 | Format             | Used for      | Reference
@@ -52,7 +52,7 @@ This is a list of source code for working with the above file formats. Working s
 | ACM                | [ACM library](https://github.com/markokr/libacm) | C
 | AAF                | [AAF code from Falltergeist](https://github.com/falltergeist/libfalltergeist/tree/master/src/Aaf) | C++
 | DAT                | [My C# implementation](https://github.com/rotators/tools/tree/master/DATLib) - only works on Fallout 2 DAT files though. | C#
-| DAT                | [Fallout 1 DAT specification for Katai](https://github.com/kaitai-io/kaitai_struct_formats/blob/master/game/fallout_dat.ksy) | [Katai struct](http://formats.kaitai.io/fallout_dat/index.html)
+| DAT                | [Fallout 1 DAT specification for Kaitai](https://github.com/kaitai-io/kaitai_struct_formats/blob/master/game/fallout_dat.ksy) | [Kaitai struct](http://formats.kaitai.io/fallout_dat/index.html)
 | DAT                | [unDAT by ABel](tools/undat) | Pascal / ASM
 | FRM                | [C# code by Rotators / cirn0](https://github.com/rotators/CritterBrowser/blob/master/CritterBrowser/Libs/FOCommon/FalloutFrm.cs) | C#
 | GAM                | [GAM code from Falltergeist](https://github.com/falltergeist/libfalltergeist/blob/master/src/Gam/File.cpp) | C++
