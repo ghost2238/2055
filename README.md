@@ -32,10 +32,15 @@ func(eax, edx, ebx, ecx, push...)
 | -------------      | ------------- | ----------
 | ACM                | Compressed audio format by Interplay | http://falloutmods.wikia.com/wiki/ACM_File_Format
 | AAF                | The AAF Font File Format is used to store fonts. | http://falloutmods.wikia.com/wiki/AAF_File_Format
-| DAT                | DAT files are archive files in which most of the files used in Fallout and Fallout 2 are stored.   | https://fallout.gamepedia.com/DAT_files
-| FRM                | FRM files are unpaletted 256-color image files containing either one or several images in one file | https://fallout.gamepedia.com/FRM_files
-| PAL                | Palette file, used for rendering FRM data with the correct colors.                                 | http://falloutmods.wikia.com/wiki/PAL_File_Format
-| MVE                | Compressed video file | http://falloutmods.wikia.com/wiki/MVE_File_Format
+| DAT                | DAT files are archive files in which most of the files used in Fallout and Fallout 2 are stored.     | https://fallout.gamepedia.com/DAT_files
+| FRM                | FRM files are unpaletted 256-color image files containing either one or several images in one file   | https://fallout.gamepedia.com/FRM_files
+| GAM                | GAM files are indexed text files. They contain global variables for each core Fallout game and its maps | http://falloutmods.wikia.com/wiki/GAM_File_Format
+| LST                | LST files are simple text files, each line is terminated with CRLF ("\r\n").                         | http://falloutmods.wikia.com/wiki/LST_File_Format
+| PAL                | Palette file, used for rendering FRM data with the correct colors.                                   | http://falloutmods.wikia.com/wiki/PAL_File_Format
+| PRO                | Prototype, every item, critter, wall, tile, and piece of scenery has its own corresponding PRO file. | http://falloutmods.wikia.com/wiki/PRO_File_Format
+| MAP                | The MAP File Format contains the information for a map used in the game                              | http://falloutmods.wikia.com/wiki/MAP_File_Format
+| MVE                | Compressed video file                                                                                | http://falloutmods.wikia.com/wiki/MVE_File_Format
+| RIX                | Format for splashscreen, located in master.dat/ART/SPLASH                                            | http://falloutmods.wikia.com/wiki/RIX_File_Format
 | INT                | Compiled script file | http://falloutmods.wikia.com/wiki/INT_File_Format
 | worldmap.dat       | | http://falloutmods.wikia.com/wiki/Worldmap.dat_File_Format
 
@@ -44,13 +49,16 @@ This is a list of source code for working with the above file formats. Working s
 
 | Format             | Source         | Language
 | -------------      | -------------- | -------
+| ACM                | [ACM library] (https://github.com/markokr/libacm) | C
+| AAF                | [AAF code from Falltergeist] (https://github.com/falltergeist/libfalltergeist/tree/master/src/Aaf) | C++
 | DAT                | [My C# implementation](https://github.com/rotators/tools/tree/master/DATLib) - only works on Fallout 2 DAT files though. | C#
 | DAT                | [Fallout 1 DAT specification for Katai](https://github.com/kaitai-io/kaitai_struct_formats/blob/master/game/fallout_dat.ksy) | [Katai struct](http://formats.kaitai.io/fallout_dat/index.html)
 | DAT                | [unDAT by ABel](tools/undat) | Pascal / ASM
 | FRM                | [C# code by Rotators / cirn0](https://github.com/rotators/CritterBrowser/blob/master/CritterBrowser/Libs/FOCommon/FalloutFrm.cs) | C#
+| GAM                | [GAM code from Falltergeist] (https://github.com/falltergeist/libfalltergeist/blob/master/src/Gam/File.cpp) | C++
 | PAL                | [Palette parser from darkfo](https://github.com/darkf/darkfo/blob/master/pal.py) | Python
 
-TODO: PRO, ACM, LIP
+TODO: LST, MAP, MVE, RIX, INT
 
 ### Bug fixes
 * https://github.com/opsxcq/patch-fallout-1-null-pointer
