@@ -30,9 +30,14 @@ func(eax, edx, ebx, ecx, push...)
 ## Fallout file formats
 | Format             | Used for      | Reference
 | -------------      | ------------- | ----------
+| ACM                | Compressed audio format by Interplay | http://falloutmods.wikia.com/wiki/ACM_File_Format
+| AAF                | The AAF Font File Format is used to store fonts. | http://falloutmods.wikia.com/wiki/AAF_File_Format
 | DAT                | DAT files are archive files in which most of the files used in Fallout and Fallout 2 are stored.   | https://fallout.gamepedia.com/DAT_files
 | FRM                | FRM files are unpaletted 256-color image files containing either one or several images in one file | https://fallout.gamepedia.com/FRM_files
 | PAL                | Palette file, used for rendering FRM data with the correct colors.                                 | http://falloutmods.wikia.com/wiki/PAL_File_Format
+| MVE                | Compressed video file | http://falloutmods.wikia.com/wiki/MVE_File_Format
+| INT                | Compiled script file | http://falloutmods.wikia.com/wiki/INT_File_Format
+| worldmap.dat       | | http://falloutmods.wikia.com/wiki/Worldmap.dat_File_Format
 
 #### Source code ####
 This is a list of source code for working with the above file formats. Working source code is always better than a reference.
@@ -41,6 +46,11 @@ This is a list of source code for working with the above file formats. Working s
 | -------------      | -------------- | -------
 | DAT                | [My C# implementation](https://github.com/rotators/tools/tree/master/DATLib) - only works on Fallout 2 DAT files though. | C#
 | DAT                | [Fallout 1 DAT specification for Katai](https://github.com/kaitai-io/kaitai_struct_formats/blob/master/game/fallout_dat.ksy) | [Katai struct](http://formats.kaitai.io/fallout_dat/index.html)
+| DAT                | [unDAT by ABel](tools/undat) | Pascal / ASM
+| FRM                | [C# code by Rotators / cirn0](https://github.com/rotators/CritterBrowser/blob/master/CritterBrowser/Libs/FOCommon/FalloutFrm.cs) | C#
+| PAL                | [Palette parser from darkfo](https://github.com/darkf/darkfo/blob/master/pal.py) | Python
+
+TODO: PRO, ACM, LIP
 
 ### Bug fixes
 * https://github.com/opsxcq/patch-fallout-1-null-pointer
@@ -52,7 +62,23 @@ This is a list of source code for working with the above file formats. Working s
 | [DarkFO](https://github.com/darkf/darkfo)        | Fallout 2 remake with Typescript and Python.
 | [jsFO](https://github.com/ajxs/jsFO)             | Fallout 2 Javascript port
 
+### Tools
+* [Tools by Team-x (mirror on fodev.net)](https://fodev.net/files/mirrors/teamx-utils/!_INDEX.html) - Unfortunately I don't know if there's any english translations of this mirror, please alert me if you find/make one.
+
 ### External links
 * [Sfall - Engine modifications for Fallout 1](https://github.com/Sduibek/sfall_1)
 * [Discussion about Sfall 1](http://fforum.kochegarov.com/index.php?showtopic=29288)
 * [Fallout database - Very import archive](http://www.nma-fallout.com/threads/fallout-database.200205/)
+
+### Thanks (no certain order)
+* Crafty
+* Team-X 
+* Noid
+* Timeslip
+* [phobos2077](https://github.com/phobos2077)
+* [Sduibek](https://github.com/Sduibek)
+* [NovaRain](https://github.com/NovaRain)
+* [darkf](https://github.com/darkf)
+* [Wipe](https://github.com/wipe2238)
+* [Atom](https://github.com/TheAtom)
+* [cvet](https://github.com/cvet)
