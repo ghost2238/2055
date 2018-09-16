@@ -1,5 +1,5 @@
 # 2055
-*"It would appear that you are incapable of a sufficient level of comprehension necessary to permit meaningful communication."* - ZAX 1.2
+*"It would appear that you are incapable of a sufficient level of comprehension necessary to permit meaningful communication."* - [ZAX 1.2](https://fallout.gamepedia.com/ZAX_1.2)
 
 ## What's this?
 A collection of info and tools for reversing Fallout 1 (and 2, it's largely the same engine).
@@ -8,6 +8,7 @@ A collection of info and tools for reversing Fallout 1 (and 2, it's largely the 
 The databases contained in this repo works with Falloutw.exe or falloutwHR.exe shipped with the Fallout 1 version on Steam.
 
 #### Hashes
+`MD5`: 212d7b66f75b3c19acbbcb818e6f13bf<br>
 `SHA1`:   66ede7f2d6fe409a7d21dfca5f035f8b03d1d236<br>
 `SHA256`: 4175afdf5a3fb6f41dd432420a7950c3021a31f05711540d192b9986e3ee02db
 
