@@ -1,0 +1,2856 @@
+{
+ "comments": [
+  {
+   "module": "falloutw.exe",
+   "address": "0x735E2",
+   "manual": true,
+   "text": "_main_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95EB8",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x98BB9",
+   "manual": true,
+   "text": "This function retrieves name of skill from skill id"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x3068E",
+   "manual": true,
+   "text": "edi = color of text"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x98BBB",
+   "manual": true,
+   "text": " e.g 1 returns \"Small Guns\""
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54216",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CB81",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x86F20",
+   "manual": true,
+   "text": "pipboy_select"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x98899",
+   "manual": true,
+   "text": "edx = skill_to_check"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1944D",
+   "manual": true,
+   "text": "edx = Row in *.lst file"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1AA31",
+   "manual": true,
+   "text": "\"normal font\""
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x3D6A5",
+   "manual": true,
+   "text": "Open \"Exit game\" dialog"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x31F79",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D58B",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x74668",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x53CED",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xC3E9D",
+   "manual": true,
+   "text": "allocates a buffer for window and returns pointer in EAX"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x30614",
+   "manual": true,
+   "text": "\"normal font\""
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54830",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xB585D",
+   "manual": true,
+   "text": "1=left mouse clicked - 4=left mouse released, 2=right mouse clicked - 8=right mouse released"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x357E5",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x30548",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xAC4CA",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1044F",
+   "manual": true,
+   "text": " _obj_dude"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2F0CD",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1BFF1",
+   "manual": true,
+   "text": "EAX = Message"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1944E",
+   "manual": true,
+   "text": "eax = Type of LST? 6 = intrface.lst"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6A925",
+   "manual": true,
+   "text": "eax+20 = item type"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x547DA",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x10435",
+   "manual": true,
+   "text": " _obj_dude"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1229F",
+   "manual": true,
+   "text": "_combat_state"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x305DD",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x53BF9",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x11C65",
+   "manual": true,
+   "text": "_combat_state"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x27B2C",
+   "manual": true,
+   "text": "SCRNAME.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x11E24",
+   "manual": true,
+   "text": "_combat_state"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54638",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x11FE6",
+   "manual": true,
+   "text": "_combat_state"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x96264",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C390",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x12447",
+   "manual": true,
+   "text": "_combat_state"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x3582D",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x123EB",
+   "manual": true,
+   "text": "_combat_state"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x27C85",
+   "manual": true,
+   "text": "SCRNAME.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x734D2",
+   "manual": true,
+   "text": "_main_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x73516",
+   "manual": true,
+   "text": "_main_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x53FBA",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5DF",
+   "manual": true,
+   "text": "Y-pos"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54809",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7374E",
+   "manual": true,
+   "text": "_main_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95C33",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x737CE",
+   "manual": true,
+   "text": "_main_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7379E",
+   "manual": true,
+   "text": "_main_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C980",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x35E63",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C8C0",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C800",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54604",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x772FF",
+   "manual": true,
+   "text": "edx=msg_id"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C991",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6E868",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x35804",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2EF2A",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54784",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2EC71",
+   "manual": true,
+   "text": "(Level, Exp, Next Level)"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2EC7B",
+   "manual": true,
+   "text": "_is_character_creation?"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6EE99",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C2C3",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2BFC0",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2BF75",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x537D9",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x539D8",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x538B8",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x53B03",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x53E80",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x541AA",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x546B0",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x546FF",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54760",
+   "manual": true,
+   "text": "_dialog_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1BD6C",
+   "manual": true,
+   "text": "automap_create_db"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7ABDB",
+   "manual": true,
+   "text": "_obj_dude"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6E62E",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x856F0",
+   "manual": true,
+   "text": "_party_add"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95EEE",
+   "manual": true,
+   "text": "lilredup.frm   ; little red button up"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95F29",
+   "manual": true,
+   "text": "lilreddn.frm   ; little red button down"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95F2E",
+   "manual": true,
+   "text": "INTRFACE.LST"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D4FA",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95EF3",
+   "manual": true,
+   "text": "INTRFACE.LST"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x959A1",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D87E",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x959CB",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95B57",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CB05",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95D0C",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x31F40",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95DE4",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95F84",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6F524",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95FBF",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D8D6",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x9600A",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x9627B",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x96319",
+   "manual": true,
+   "text": "_window_create_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6E0F5",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6E28C",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x27AEE",
+   "manual": true,
+   "text": "SCRNAME.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6E735",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6E9FF",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6F3E6",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6FA7A",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6FBF4",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6FC57",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6FCA3",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6FD00",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6FD4F",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6FD74",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2DC8F",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2DCAB",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2E52C",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2E573",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C9B7",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C9E1",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7407B",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CA10",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CA3F",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CA6E",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CA9D",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CBE7",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CADF",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CB21",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x772FD",
+   "manual": true,
+   "text": "eax=ptr to messagelist, i.e EDITOR.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CB47",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CBB4",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2CC03",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D5E4",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D04B",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D046",
+   "manual": true,
+   "text": "fo1 res hooks and modifies?"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D7B4",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D6D4",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D717",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D80C",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x27B84",
+   "manual": true,
+   "text": "SCRNAME.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2D93A",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2DA9B",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2DB0A",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2DB61",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2DC1F",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2DC60",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2F00E",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2DBC2",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x3191C",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x72EC9",
+   "manual": true,
+   "text": "Process loop while in-game (character loaded)"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2EF40",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2F0E9",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2F19F",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x305B4",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x307BB",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x30839",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5D6",
+   "manual": true,
+   "text": "Width"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x31A30",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x31D72",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x31EC0",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x34783",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x347D5",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x34872",
+   "manual": true,
+   "text": "_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6F03C",
+   "manual": true,
+   "text": "_window_load_save_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5F1",
+   "manual": true,
+   "text": "X-pos"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5EE",
+   "manual": true,
+   "text": "Y-pos"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5ED",
+   "manual": true,
+   "text": "Height"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5E6",
+   "manual": true,
+   "text": "WinRef = _i_wid, see \"Windows\""
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5CD",
+   "manual": true,
+   "text": "HovOff"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5DD",
+   "manual": true,
+   "text": "HovOn"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5C4",
+   "manual": true,
+   "text": "ButtonDown"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5BF",
+   "manual": true,
+   "text": "ButtonUp"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5BE",
+   "manual": true,
+   "text": "PicUp"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5B6",
+   "manual": true,
+   "text": "PicDown"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5AD",
+   "manual": true,
+   "text": "?"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5AB",
+   "manual": true,
+   "text": "Button type"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1C5F4",
+   "manual": true,
+   "text": "register_button_reference"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7404A",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x740FE",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x744FE",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x74588",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x74642",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7469D",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xAA89C",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xABB3C",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xAC27F",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xADF1A",
+   "manual": true,
+   "text": "MAP.MSG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x27C38",
+   "manual": true,
+   "text": "if it's the player, display \"None\""
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x27C32",
+   "manual": true,
+   "text": "_obj_dude"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x9C9D9",
+   "manual": true,
+   "text": "get stat of critter. See STAT.MSG for list of stats"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x9C9DA",
+   "manual": true,
+   "text": "eax=crpointer, edx=stat"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x988DD",
+   "manual": true,
+   "text": "This code checks the primary stats"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x988E1",
+   "manual": true,
+   "text": "and calculates additional skillpoints"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x988E3",
+   "manual": true,
+   "text": "E.g for small guns, it's x% + AG"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C700",
+   "manual": true,
+   "text": "Character screen loop"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x72AD7",
+   "manual": true,
+   "text": "Only the main menu, load/save etc is seperate"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x72AFE",
+   "manual": true,
+   "text": "fade out"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x72B08",
+   "manual": true,
+   "text": "play intro"
+  }
+ ],
+ "labels": [
+  {
+   "module": "falloutw.exe",
+   "address": "0x6DE24",
+   "manual": true,
+   "text": "SaveGame_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x628E0",
+   "manual": true,
+   "text": "intface_open_inventory"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x49734",
+   "manual": true,
+   "text": "gsound_play_sfx_file_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6EBB4",
+   "manual": true,
+   "text": "LoadGameScreen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2F268",
+   "manual": true,
+   "text": "PrintGender_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xD2B82",
+   "manual": true,
+   "text": "sprintf_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x48798",
+   "manual": true,
+   "text": "PlayMusic?"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xBE494",
+   "manual": true,
+   "text": "buf_to_buf_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xB3538",
+   "manual": true,
+   "text": "DebugMsg"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xC3548",
+   "manual": true,
+   "text": "win_draw_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6B38C",
+   "manual": true,
+   "text": "item_w_try_reload_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x46520",
+   "manual": true,
+   "text": "gmovie_play_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x494F0",
+   "manual": true,
+   "text": "gsnd_build_weapon_sfx_name_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x20BD4",
+   "manual": true,
+   "text": "combat_should_end_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x3C998",
+   "manual": true,
+   "text": "game_get_global_var_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xC356C",
+   "manual": true,
+   "text": "win_draw_rect_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x27C28",
+   "manual": true,
+   "text": "critter_name_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54D78",
+   "manual": true,
+   "text": "intface_update_items_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x27CB8",
+   "manual": true,
+   "text": "critter_pc_set_name_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x134B0",
+   "manual": true,
+   "text": "anim_init"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x76E28",
+   "manual": true,
+   "text": "getmsg_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x190B4",
+   "manual": true,
+   "text": "art_exists_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x55088",
+   "manual": true,
+   "text": "intface_toggle_item_state_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xC4850",
+   "manual": true,
+   "text": "register_button_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xAD1A4",
+   "manual": true,
+   "text": "LoadMap?"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x26B50",
+   "manual": true,
+   "text": "config_set_value_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xAF140",
+   "manual": true,
+   "text": "mem_alloc"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x84404",
+   "manual": true,
+   "text": "init_options_menu"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xC2E38",
+   "manual": true,
+   "text": "win_print_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xCE77C",
+   "manual": true,
+   "text": "DOSCmdLineDestroy_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7D8F8",
+   "manual": true,
+   "text": "obj_dist_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7385C",
+   "manual": true,
+   "text": "main_menu_loop_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xB38F8",
+   "manual": true,
+   "text": "get_input_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1944C",
+   "manual": true,
+   "text": "art_id_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x11F98",
+   "manual": true,
+   "text": "action_get_an_object_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x25E9C",
+   "manual": true,
+   "text": "combat_ai_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x27250",
+   "manual": true,
+   "text": "credits_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x12254",
+   "manual": true,
+   "text": "action_loot_container_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54A08",
+   "manual": true,
+   "text": "intface_update_hit_points_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xB5858",
+   "manual": true,
+   "text": "mouse_state"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x18E9C",
+   "manual": true,
+   "text": "art_read_lst"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x36420",
+   "manual": true,
+   "text": "perks_dialog_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x76C54",
+   "manual": true,
+   "text": "load_message_file"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xC1ECC",
+   "manual": true,
+   "text": "set_text_font_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C0AC",
+   "manual": true,
+   "text": "display_print_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x8ECEC",
+   "manual": true,
+   "text": "proto_init"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6A90C",
+   "manual": true,
+   "text": "item_weight_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x20918",
+   "manual": true,
+   "text": "combat_turn_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x28C8C",
+   "manual": true,
+   "text": "pc_flag_toggle_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x9094C",
+   "manual": true,
+   "text": "proto_ptr_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x189B8",
+   "manual": true,
+   "text": "art_ptr_lock_data_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x63BB8",
+   "manual": true,
+   "text": "display_inventory_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x8B220",
+   "manual": true,
+   "text": "obj_use_book_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54988",
+   "manual": true,
+   "text": "intface_redraw_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x76AFC",
+   "manual": true,
+   "text": "message_init"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x64060",
+   "manual": true,
+   "text": "display_target_inventory_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xB2B94",
+   "manual": true,
+   "text": "db_fclose_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x3E268",
+   "manual": true,
+   "text": "gdialog_init"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x46470",
+   "manual": true,
+   "text": "gmovie_init"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x14380",
+   "manual": true,
+   "text": "register_object_animate_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x93754",
+   "manual": true,
+   "text": "scr_game_init"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x54C34",
+   "manual": true,
+   "text": "intface_update_move_points_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xAF2A8",
+   "manual": true,
+   "text": "mem_free"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xB3380",
+   "manual": true,
+   "text": "debug_register_env_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x11DA8",
+   "manual": true,
+   "text": "action_use_an_item_on_object_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xAFEF4",
+   "manual": true,
+   "text": "open_file"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x98A98",
+   "manual": true,
+   "text": "skill_dec_point_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x4359C",
+   "manual": true,
+   "text": "gmouse_is_scrolling_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xA0B04",
+   "manual": true,
+   "text": "trait_get_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x18A90",
+   "manual": true,
+   "text": "art_ptr_unlock_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x24518",
+   "manual": true,
+   "text": "combat_is_shot_blocked_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x279EC",
+   "manual": true,
+   "text": "credits_get_next_line_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x287C8",
+   "manual": true,
+   "text": "critter_body_type_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2871C",
+   "manual": true,
+   "text": "critter_is_dead_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1BFF0",
+   "manual": true,
+   "text": "dialog_out_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x68598",
+   "manual": true,
+   "text": "display_table_inventories_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x38910",
+   "manual": true,
+   "text": "endgame_slideshow_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x3C9C8",
+   "manual": true,
+   "text": "game_set_global_var_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x55180",
+   "manual": true,
+   "text": "intface_use_item_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x65588",
+   "manual": true,
+   "text": "inven_left_hand_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x65548",
+   "manual": true,
+   "text": "inven_right_hand_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x655C8",
+   "manual": true,
+   "text": "inven_worn_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x98874",
+   "manual": true,
+   "text": "skill_get_tags_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x85F4C",
+   "manual": true,
+   "text": "isPartyMember_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6A244",
+   "manual": true,
+   "text": "item_add_force_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6C220",
+   "manual": true,
+   "text": "item_c_curr_size_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6C200",
+   "manual": true,
+   "text": "item_c_max_size_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x9E3CC",
+   "manual": true,
+   "text": "tile_refresh_display_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6CBFC",
+   "manual": true,
+   "text": "item_d_check_addict_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6C4FC",
+   "manual": true,
+   "text": "item_d_take_drug_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6A8B8",
+   "manual": true,
+   "text": "item_get_type_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x73770",
+   "manual": true,
+   "text": "win_fadeout"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6B7FC",
+   "manual": true,
+   "text": "item_w_anim_code_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6B23C",
+   "manual": true,
+   "text": "item_w_anim_weap_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6B1CC",
+   "manual": true,
+   "text": "item_w_is_2handed_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x3042C",
+   "manual": true,
+   "text": "ListSkills_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x67B20",
+   "manual": true,
+   "text": "move_inventory_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x8B1D0",
+   "manual": true,
+   "text": "obj_destroy_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7D47C",
+   "manual": true,
+   "text": "obj_find_first_at_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x94F10",
+   "manual": true,
+   "text": "scr_exec_map_update_scripts_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7D500",
+   "manual": true,
+   "text": "obj_find_next_at_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7DE34",
+   "manual": true,
+   "text": "obj_outline_object_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7DE70",
+   "manual": true,
+   "text": "obj_remove_outline_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7CF78",
+   "manual": true,
+   "text": "obj_turn_off_outline_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7CF5C",
+   "manual": true,
+   "text": "obj_turn_on_outline_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x13584",
+   "manual": true,
+   "text": "register_begin_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x13708",
+   "manual": true,
+   "text": "register_clear_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x13788",
+   "manual": true,
+   "text": "register_end_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x989F4",
+   "manual": true,
+   "text": "skill_inc_point_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x98898",
+   "manual": true,
+   "text": "skill_level_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x98850",
+   "manual": true,
+   "text": "skill_set_tags_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6505C",
+   "manual": true,
+   "text": "switch_hand_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xA0AF8",
+   "manual": true,
+   "text": "trait_set_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xC3E98",
+   "manual": true,
+   "text": "win_get_buf_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x98BB8",
+   "manual": true,
+   "text": "get_skill_name"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x3B058",
+   "manual": true,
+   "text": "font_draw_text"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x189FC",
+   "manual": true,
+   "text": "art_draw_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x93D40",
+   "manual": true,
+   "text": "scr_write_ScriptNode_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xB395C",
+   "manual": true,
+   "text": "process_bk_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x28C18",
+   "manual": true,
+   "text": "pc_flag_on_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x28BCC",
+   "manual": true,
+   "text": "pc_flag_off_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x7012C",
+   "manual": true,
+   "text": "LoadSlot_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xB50B8",
+   "manual": true,
+   "text": "get_mouse"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x271F3C",
+   "manual": true,
+   "text": "mouse_pos_x"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x72E98",
+   "manual": true,
+   "text": "main_loop"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x271F44",
+   "manual": true,
+   "text": "mouse_pos_y"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x99A70",
+   "manual": true,
+   "text": "intface_skilldex_select"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x74158",
+   "manual": true,
+   "text": "intface_open_character"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x86F20",
+   "manual": true,
+   "text": "intface_pipboy_open"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xB5860",
+   "manual": true,
+   "text": "mouse_not_loaded??"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xB40E8",
+   "manual": true,
+   "text": "get_tick"
+  },
+  {
+   "module": "f1_res.dll",
+   "address": "0x5DF0",
+   "manual": true,
+   "text": "resmod_art_draw"
+  },
+  {
+   "module": "f1_res.dll",
+   "address": "0x245F0",
+   "manual": true,
+   "text": "resmod_hook_main_loop"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x21610",
+   "manual": true,
+   "text": "compute_attack"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x5BA44",
+   "manual": true,
+   "text": "print_script_error"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x663D4",
+   "manual": true,
+   "text": "inven_display_msg"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2EC70",
+   "manual": true,
+   "text": "draw_level_window"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x1A8CC",
+   "manual": true,
+   "text": "automap_init"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x4BA08",
+   "manual": true,
+   "text": "script_error_with_op"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x95998",
+   "manual": true,
+   "text": "window_create_character_selection_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x6F03C",
+   "manual": true,
+   "text": "_window_load_game"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x772FC",
+   "manual": true,
+   "text": "get_msgstring(msgptr, msg_id)"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x9C9D8",
+   "manual": true,
+   "text": "_get_stat(critter, stat_id)"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2C67C",
+   "manual": true,
+   "text": "process_character_screen"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x2BDA0",
+   "manual": true,
+   "text": "GetFreeDiskSpace_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x9CCBC",
+   "manual": true,
+   "text": "inc_stat_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0xBE4C4",
+   "manual": true,
+   "text": "trans_buf_to_buf_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x4E7D1",
+   "manual": true,
+   "text": "anim_busy_"
+  },
+  {
+   "module": "falloutw.exe",
+   "address": "0x70124",
+   "manual": true,
+   "text": "isLoadingGame_"
+  }
+ ],
+ "breakpoints": [
+  {
+   "address": "0x4406808",
+   "enabled": false,
+   "oldbytes": "0x414D",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x1041B",
+   "enabled": false,
+   "oldbytes": "0x38E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x2025F",
+   "enabled": true,
+   "oldbytes": "0xB8E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x208A2",
+   "enabled": true,
+   "oldbytes": "0xD5E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x20A81",
+   "enabled": true,
+   "oldbytes": "0xAAE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x22191",
+   "enabled": true,
+   "oldbytes": "0x2E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x221A3",
+   "enabled": true,
+   "oldbytes": "0x30E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x2BDF4",
+   "enabled": true,
+   "oldbytes": "0x53E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x2C244",
+   "enabled": false,
+   "oldbytes": "0x83E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x2F025",
+   "enabled": true,
+   "oldbytes": "0xAEE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x2F07C",
+   "enabled": true,
+   "oldbytes": "0x57E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x33B22",
+   "enabled": true,
+   "oldbytes": "0xB1E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3BFBE",
+   "enabled": true,
+   "oldbytes": "0xBDE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3C025",
+   "enabled": true,
+   "oldbytes": "0x96E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3C0BC",
+   "enabled": true,
+   "oldbytes": "0x840F",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3C17C",
+   "enabled": true,
+   "oldbytes": "0x6FE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3C1BA",
+   "enabled": true,
+   "oldbytes": "0x45E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3C27F",
+   "enabled": true,
+   "oldbytes": "0x4CE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3C2DB",
+   "enabled": true,
+   "oldbytes": "0x1CE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3C31B",
+   "enabled": true,
+   "oldbytes": "0xD0E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3C920",
+   "enabled": true,
+   "oldbytes": "0xFFE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3D661",
+   "enabled": true,
+   "oldbytes": "0x52E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3FBFC",
+   "enabled": true,
+   "oldbytes": "0x81E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x3FC27",
+   "enabled": true,
+   "oldbytes": "0x6CE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x4CB22",
+   "enabled": false,
+   "oldbytes": "0x85E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x58D9C",
+   "enabled": true,
+   "oldbytes": "0x5153",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x590C9",
+   "enabled": true,
+   "oldbytes": "0xC085",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x63BB8",
+   "enabled": false,
+   "oldbytes": "0x5651",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x6DEAB",
+   "enabled": true,
+   "oldbytes": "0x3D83",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x72A77",
+   "enabled": true,
+   "oldbytes": "0xA4E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x72B3C",
+   "enabled": true,
+   "oldbytes": "0xFE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x72D9C",
+   "enabled": true,
+   "oldbytes": "0x5153",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x7307A",
+   "enabled": true,
+   "oldbytes": "0xB1E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x73988",
+   "enabled": false,
+   "oldbytes": "0x83E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x7398F",
+   "enabled": false,
+   "oldbytes": "0x9CE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x739C2",
+   "enabled": false,
+   "oldbytes": "0x91E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x82F34",
+   "enabled": true,
+   "oldbytes": "0x28B8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x84510",
+   "enabled": false,
+   "oldbytes": "0x5153",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x8A79B",
+   "enabled": false,
+   "oldbytes": "0xF883",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x97354",
+   "enabled": true,
+   "oldbytes": "0xD7E8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x9735E",
+   "enabled": true,
+   "oldbytes": "0xFDE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x9738B",
+   "enabled": true,
+   "oldbytes": "0xECE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x974E9",
+   "enabled": true,
+   "oldbytes": "0x8EE8",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x98A98",
+   "enabled": true,
+   "oldbytes": "0x5153",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0xC5D29",
+   "enabled": true,
+   "oldbytes": "0x408D",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0xC6033",
+   "enabled": false,
+   "oldbytes": "0x55FF",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "falloutw.exe",
+   "breakCondition": "",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  },
+  {
+   "address": "0x16355",
+   "enabled": true,
+   "oldbytes": "0xCCC3",
+   "type": 0,
+   "titantype": "0x0",
+   "name": "",
+   "module": "f1_res.dll",
+   "breakCondition": "eax != 0",
+   "logText": "",
+   "logCondition": "",
+   "commandText": "",
+   "commandCondition": "",
+   "fastResume": false,
+   "silent": false
+  }
+ ],
+ "hashAlgorithm": "murmurhash",
+ "hash": "0x98597129"
+}
