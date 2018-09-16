@@ -42,6 +42,9 @@ This is a list of source code for working with the above file formats. Working s
 | DAT                | [My C# implementation](https://github.com/rotators/tools/tree/master/DATLib) - only works on Fallout 2 DAT files though. | C#
 | DAT                | [Fallout 1 DAT specification for Katai](https://github.com/kaitai-io/kaitai_struct_formats/blob/master/game/fallout_dat.ksy) | [Katai struct](http://formats.kaitai.io/fallout_dat/index.html)
 
+### Bug fixes
+* https://github.com/opsxcq/patch-fallout-1-null-pointer
+
 ### Interesting projects
 | Project            | Description 
 | -------------      | ------------- |
