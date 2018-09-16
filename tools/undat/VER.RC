@@ -1,0 +1,38 @@
+/****************************************************************************
+
+
+ver.rc
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+
+1 VERSIONINFO 
+FILEVERSION 1, 2, 0, 0
+PRODUCTVERSION 1, 2, 0, 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", "ABel [TeamX]\000\000"
+   VALUE "FileDescription", "Fallout 1 DAT-file extractor\000"
+   VALUE "FileVersion", "1.2\000\000"
+   VALUE "InternalName", "F1UnDat\000"
+   VALUE "LegalCopyright", "Copyright \251 ABel [TeamX] 1999-2001\000\000"
+   VALUE "OriginalFilename", "f1undat.exe\000"
+  }
+
+ }
+
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 1033, 1252
+ }
+
+}
+
