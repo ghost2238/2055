@@ -7,6 +7,15 @@ A collection of info and tools for reversing Fallout 1 (and 2, it's largely the 
 ### EXE information
 The databases contained in this repo works with Falloutw.exe or falloutwHR.exe shipped with the Fallout 1 version on Steam.
 
+### Compiler
+Fallout 1 was compiled with Watcom C [probably version 10 or 11](https://en.wikipedia.org/wiki/Watcom_C/C%2B%2B#Release_history), the [US patch version 1.2](http://www.nma-fallout.com/resources/fallout-v-1-2-patch-by-teamx-unofficial.54/) (latest official version) was compiled on `Mar 10 1998 18:01:49` / 1998-03-10 (data from `0x43C290` in the exe mentioned below).
+
+#### Calling convention
+Up to 4 registers are assigned to arguments in the order eax, edx, ebx, ecx. Arguments are assigned to registers from left to right. If any argument cannot be assigned to a register (say it is too large) it, and all subsequent arguments, are assigned to the stack. Arguments assigned to the stack are pushed from right to left. Names are mangled by adding a suffixed underscore.
+
+eax->func(edx, ebx, ecx, push...)<br>
+func(eax, edx, ebx, ecx, push...)
+
 #### Hashes
 `MD5`: 212d7b66f75b3c19acbbcb818e6f13bf<br>
 `SHA1`:   66ede7f2d6fe409a7d21dfca5f035f8b03d1d236<br>
@@ -32,6 +41,9 @@ This is a list of source code for working with the above file formats. Working s
 | -------------      | -------------- | -------
 | DAT                | [My C# implementation](https://github.com/rotators/tools/tree/master/DATLib) - only works on Fallout 2 DAT files though. | C#
 | DAT                | [Fallout 1 DAT specification for Katai](https://github.com/kaitai-io/kaitai_struct_formats/blob/master/game/fallout_dat.ksy) | [Katai struct](http://formats.kaitai.io/fallout_dat/index.html)
+
+### Bug fixes
+* https://github.com/opsxcq/patch-fallout-1-null-pointer
 
 ### Interesting projects
 | Project            | Description 
