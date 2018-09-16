@@ -49,13 +49,13 @@ This is a list of source code for working with the above file formats. Working s
 
 | Format             | Source         | Language
 | -------------      | -------------- | -------
-| ACM                | [ACM library] (https://github.com/markokr/libacm) | C
-| AAF                | [AAF code from Falltergeist] (https://github.com/falltergeist/libfalltergeist/tree/master/src/Aaf) | C++
+| ACM                | [ACM library](https://github.com/markokr/libacm) | C
+| AAF                | [AAF code from Falltergeist](https://github.com/falltergeist/libfalltergeist/tree/master/src/Aaf) | C++
 | DAT                | [My C# implementation](https://github.com/rotators/tools/tree/master/DATLib) - only works on Fallout 2 DAT files though. | C#
 | DAT                | [Fallout 1 DAT specification for Katai](https://github.com/kaitai-io/kaitai_struct_formats/blob/master/game/fallout_dat.ksy) | [Katai struct](http://formats.kaitai.io/fallout_dat/index.html)
 | DAT                | [unDAT by ABel](tools/undat) | Pascal / ASM
 | FRM                | [C# code by Rotators / cirn0](https://github.com/rotators/CritterBrowser/blob/master/CritterBrowser/Libs/FOCommon/FalloutFrm.cs) | C#
-| GAM                | [GAM code from Falltergeist] (https://github.com/falltergeist/libfalltergeist/blob/master/src/Gam/File.cpp) | C++
+| GAM                | [GAM code from Falltergeist](https://github.com/falltergeist/libfalltergeist/blob/master/src/Gam/File.cpp) | C++
 | PAL                | [Palette parser from darkfo](https://github.com/darkf/darkfo/blob/master/pal.py) | Python
 
 TODO: LST, MAP, MVE, RIX, INT
