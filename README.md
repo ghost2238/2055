@@ -24,8 +24,8 @@ func(eax, edx, ebx, ecx, push...)
 ### Files
 | File               | Description   |
 | -------------      | ------------- |
-| [Falloutw.idc](https://github.com/ghost2238/2055/blob/master/Falloutw.dd32)   | [IDA 6.5](https://www.hex-rays.com/products/ida/6.5/index.shtml) database by Crafty.
-| [Falloutw.ddc32](https://github.com/ghost2238/2055/blob/master/Falloutw.ddc32)     | My x64dbg database based on own research and the above database
+| Falloutw.idc       | [IDA 6.5](https://www.hex-rays.com/products/ida/6.5/index.shtml) database by Crafty.
+| Falloutw.ddc32     | My x64dbg database based on own research and the above database
 
 ## Fallout file formats
 | Format             | Used for      | Reference
@@ -44,7 +44,7 @@ func(eax, edx, ebx, ecx, push...)
 | INT                | Compiled script file | http://falloutmods.wikia.com/wiki/INT_File_Format
 | worldmap.dat       | | http://falloutmods.wikia.com/wiki/Worldmap.dat_File_Format
 
-#### Source code ####
+### Source code
 This is a list of source code for working with the above file formats. Working source code is always better than a reference.
 
 | Format             | Source         | Language
@@ -52,11 +52,13 @@ This is a list of source code for working with the above file formats. Working s
 | ACM                | [ACM library](https://github.com/markokr/libacm) | C
 | AAF                | [AAF code from Falltergeist](https://github.com/falltergeist/libfalltergeist/tree/master/src/Aaf) | C++
 | DAT                | [My C# implementation](https://github.com/rotators/tools/tree/master/DATLib) - only works on Fallout 2 DAT files though. | C#
-| DAT                | [Fallout 1 DAT specification for Kaitai](https://github.com/kaitai-io/kaitai_struct_formats/blob/master/game/fallout_dat.ksy) | [Kaitai struct](http://formats.kaitai.io/fallout_dat/index.html)
+| DAT                | [Fallout 1 DAT specification for Katai](https://github.com/kaitai-io/kaitai_struct_formats/blob/master/game/fallout_dat.ksy) | [Katai struct](http://formats.kaitai.io/fallout_dat/index.html)
+| DAT                | [Fallout 1 and 2 DAT code in Python](https://github.com/berenm/game-data-reverse-engineering/tree/master/python) | Python
 | DAT                | [unDAT by ABel](tools/undat) | Pascal / ASM
 | FRM                | [C# code by Rotators / cirn0](https://github.com/rotators/CritterBrowser/blob/master/CritterBrowser/Libs/FOCommon/FalloutFrm.cs) | C#
 | GAM                | [GAM code from Falltergeist](https://github.com/falltergeist/libfalltergeist/blob/master/src/Gam/File.cpp) | C++
 | PAL                | [Palette parser from darkfo](https://github.com/darkf/darkfo/blob/master/pal.py) | Python
+| INT                | [int2ssl script decompiler](https://github.com/falltergeist/int2ssl) | C++
 
 TODO: LST, MAP, MVE, RIX, INT
 
@@ -71,7 +73,7 @@ TODO: LST, MAP, MVE, RIX, INT
 | [jsFO](https://github.com/ajxs/jsFO)             | Fallout 2 Javascript port
 
 ### Tools
-* [Tools by Team-x (mirror on fodev.net)](https://fodev.net/files/mirrors/teamx-utils/!_INDEX.html) - Unfortunately I don't know if there's any english translations of this mirror, please alert me if you find/make one.
+* [Tools by Team-x (mirror on fodev.net)](https://fodev.net/files/mirrors/teamx-utils/!_INDEX.html) - Unfortunately I don't know if there's any english translations of this index, please alert me if you find/make one.
 
 ### External links
 * [Sfall - Engine modifications for Fallout 1](https://github.com/Sduibek/sfall_1)
