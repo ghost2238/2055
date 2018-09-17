@@ -7,7 +7,7 @@ A collection of info and tools for reversing Fallout 1 (and 2, it's largely the 
 ### EXE information
 The databases contained in this repo works with Falloutw.exe or falloutwHR.exe shipped with the Fallout 1 version on Steam.
 
-### Compiler
+#### Compiler
 Fallout 1 was compiled with Watcom C [probably version 10 or 11](https://en.wikipedia.org/wiki/Watcom_C/C%2B%2B#Release_history), the [US patch version 1.2](http://www.nma-fallout.com/resources/fallout-v-1-2-patch-by-teamx-unofficial.54/) (latest official version) was compiled on `Mar 10 1998 18:01:49` / 1998-03-10 (data from `0x43C290` in the exe mentioned below).
 
 #### Calling convention
@@ -21,7 +21,14 @@ func(eax, edx, ebx, ecx, push...)
 `SHA1`:   66ede7f2d6fe409a7d21dfca5f035f8b03d1d236<br>
 `SHA256`: 4175afdf5a3fb6f41dd432420a7950c3021a31f05711540d192b9986e3ee02db
 
-### Files
+### Fallout files
+| File               | Description   |
+| -------------      | ------------- |
+| [MASTER.DAT](master.dat.md)      | General archive with art, maps, scripts, sfx and text
+| [CRITTER.DAT](critter.dat.d)     | Animations/graphics for critters.
+| [falloutw.exe](falloutw.exe.md)  | Executable
+
+### Repo files
 | File               | Description   |
 | -------------      | ------------- |
 | Falloutw.idc       | [IDA 6.5](https://www.hex-rays.com/products/ida/6.5/index.shtml) database by Crafty.
@@ -32,7 +39,7 @@ func(eax, edx, ebx, ecx, push...)
 | -------------      | ------------- | ----------
 | ACM                | Compressed audio format by Interplay | http://falloutmods.wikia.com/wiki/ACM_File_Format
 | AAF                | The AAF Font File Format is used to store fonts. | http://falloutmods.wikia.com/wiki/AAF_File_Format
-| DAT                | DAT files are archive files in which most of the files used in Fallout and Fallout 2 are stored.     | https://fallout.gamepedia.com/DAT_files
+| DAT                | DAT files are archive files in which most of the files used in Fallout and Fallout 2 are stored.     | http://falloutmods.wikia.com/wiki/DAT_file_format
 | FRM                | FRM files are unpaletted 256-color image files containing either one or several images in one file   | https://fallout.gamepedia.com/FRM_files
 | GAM                | GAM files are indexed text files. They contain global variables for each core Fallout game and its maps | http://falloutmods.wikia.com/wiki/GAM_File_Format
 | LST                | LST files are simple text files, each line is terminated with CRLF ("\r\n").                         | http://falloutmods.wikia.com/wiki/LST_File_Format
