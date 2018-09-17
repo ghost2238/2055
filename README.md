@@ -25,7 +25,7 @@ func(eax, edx, ebx, ecx, push...)
 | File               | Description   |
 | -------------      | ------------- |
 | [MASTER.DAT](master.dat.md)      | General archive with art, maps, scripts, sfx and text
-| [CRITTER.DAT](critter.dat.d)     | Animations/graphics for critters.
+| [CRITTER.DAT](critter.dat.md)     | Animations/graphics for critters.
 | [falloutw.exe](falloutw.exe.md)  | Executable
 
 ### Repo files
