@@ -13,12 +13,12 @@ Fallout 1 was compiled with Watcom C [probably version 10 or 11](https://en.wiki
 #### Calling convention
 Up to 4 registers are assigned to arguments in the order eax, edx, ebx, ecx. Arguments are assigned to registers from left to right. If any argument cannot be assigned to a register (say it is too large) it, and all subsequent arguments, are assigned to the stack. Arguments assigned to the stack are pushed from right to left. Names are mangled by adding a suffixed underscore.
 
-eax->func(edx, ebx, ecx, push...)<br>
+eax->func(edx, ebx, ecx, push...)
 func(eax, edx, ebx, ecx, push...)
 
 #### Hashes
-`MD5`: 212d7b66f75b3c19acbbcb818e6f13bf<br>
-`SHA1`:   66ede7f2d6fe409a7d21dfca5f035f8b03d1d236<br>
+`MD5`: 212d7b66f75b3c19acbbcb818e6f13bf
+`SHA1`:   66ede7f2d6fe409a7d21dfca5f035f8b03d1d236
 `SHA256`: 4175afdf5a3fb6f41dd432420a7950c3021a31f05711540d192b9986e3ee02db
 
 ### Fallout files
