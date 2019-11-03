@@ -4,6 +4,10 @@
 ## What's this?
 A collection of info and tools for reversing Fallout 1 (and 2, it's largely the same engine).
 
+Since FO1 has been almost 100% ported to the FO2 engine, this project is almost totally meaningless.
+
+See https://github.com/rotators/Fo1in2 - Use the research and resources related to https://github.com/phobos2077/sfall
+
 ### EXE information
 The databases contained in this repo works with Falloutw.exe or falloutwHR.exe shipped with the Fallout 1 version on Steam.
 
@@ -17,8 +21,8 @@ eax->func(edx, ebx, ecx, push...)
 func(eax, edx, ebx, ecx, push...)
 
 #### Hashes
-`MD5`: 212d7b66f75b3c19acbbcb818e6f13bf
-`SHA1`:   66ede7f2d6fe409a7d21dfca5f035f8b03d1d236
+`MD5`: 212d7b66f75b3c19acbbcb818e6f13bf<br>
+`SHA1`:   66ede7f2d6fe409a7d21dfca5f035f8b03d1d236<br>
 `SHA256`: 4175afdf5a3fb6f41dd432420a7950c3021a31f05711540d192b9986e3ee02db
 
 ### Fallout files
@@ -80,7 +84,7 @@ TODO: LST, MAP, MVE, RIX, INT
 | [jsFO](https://github.com/ajxs/jsFO)             | Fallout 2 Javascript port
 
 ### Tools
-* [Tools by Team-x (mirror on fodev.net)](https://fodev.net/files/mirrors/teamx-utils/!_INDEX.html) - Unfortunately I don't know if there's any english translations of this index, please alert me if you find/make one.
+* [Tools by Team-x (mirror on fodev.net)](https://fodev.net/files/mirrors/teamx-utils/!_INDEX_en.html).
 
 ### External links
 * [Sfall - Engine modifications for Fallout 1](https://github.com/Sduibek/sfall_1)
