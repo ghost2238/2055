@@ -6,7 +6,9 @@ A collection of info and tools for reversing Fallout 1 (and 2, it's largely the 
 
 Since FO1 has been almost 100% ported to the FO2 engine, this project is almost totally meaningless.
 
-See https://github.com/rotators/Fo1in2 - Use the research and resources related to https://github.com/phobos2077/sfall
+See https://github.com/rotators/Fo1in2
+
+More research and documentation available at https://fodev.net/files/fo2/ 
 
 ### EXE information
 The databases contained in this repo works with Falloutw.exe or falloutwHR.exe shipped with the Fallout 1 version on Steam.
