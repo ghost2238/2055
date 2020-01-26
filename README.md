@@ -4,11 +4,11 @@
 ## What's this?
 A collection of info and tools for reversing Fallout 1 (and 2, it's largely the same engine).
 
-Since FO1 has been almost 100% ported to the FO2 engine, this project is almost totally meaningless.
+## Status ##
+Since FO1 has been almost 100% ported to the FO2 engine by [our merry group of Fallout fans](https://github.com/rotators), this project can be considered dead.
 
 See https://github.com/rotators/Fo1in2
-
-More research and documentation available at https://fodev.net/files/fo2/ 
+More recent research and documentation is available at https://fodev.net/files/fo2/ and https://github.com/rotators/fallout2-docs
 
 ### EXE information
 The databases contained in this repo works with Falloutw.exe or falloutwHR.exe shipped with the Fallout 1 version on Steam.
